@@ -1,0 +1,185 @@
+
+
+// font url
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+// font family
+$font-family: (
+    'ff': (
+        'body': "'Figtree', sans-serif",
+        'heading':"'Figtree', sans-serif",
+        'p': "'Figtree', sans-serif",
+        'fontawesome': '"Font Awesome 6 Pro"',
+    )
+);
+
+
+body,html{
+    background: var(--ztc-text-text-3);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+// font size
+$font-size: (
+    'fz': (
+        'body': 16px,
+        'p': 16px,
+        'heading': 20px,
+    )
+);
+$height:(
+     'specing': (
+          'height6': 6px,
+          'height8': 8px,
+          'height10': 10px,
+          'height12': 12px,
+          'height14': 114px,
+          'height16': 16px,
+          'height18': 18px,
+          'height20': 20px,
+          'height22': 22px,
+          'height24': 24px,
+          'height26': 26px,
+          'height28': 28px,
+          'height30': 30px,
+          'height32': 32px,
+          'height34': 34px,
+          'height36': 36px,
+          'height38': 38px,
+          'height40': 40px,
+          'height42': 42px,
+          'height44': 44px,
+          'height46': 46px,
+          'height48': 48px,
+          'height50': 50px,
+          'height52': 52px,
+          'height54': 54px,
+          'height56': 56px,
+          'height58': 58px,
+          'height60': 60px,
+          'height70': 70px,
+          'height80': 80px,
+          'height90': 90px,
+          'height100': 100px,
+          'height110': 110px,
+          'height120': 120px,
+          'height130': 130px,
+     )
+);
+
+$fontsweight:(
+    'weight':(
+        'regular':400,
+        'medium':500,
+        'semibold':600,
+        'bold':700,
+        'black':800,
+    )
+);
+
+@keyframes animation-5 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  .aniamtion-key-5 {
+    position: relative;
+    animation-name: animation-5;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all .4s;
+  }
+
+  @keyframes animation-7 {
+    0% {
+
+      transform:rotate(0) ;
+    }
+
+    100% {
+
+      transform: rotate(-1000deg);
+    }
+}
+
+.keyframe5 {
+    position: relative;
+    animation-name: animation-7;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.59, 0.59, 1, 1)
+}
+
+@keyframes animation-1 {
+    0% {
+
+      transform:translateY(0) ;
+    }
+
+    100% {
+
+      transform: translateY(30px);
+    }
+  }
+
+.aniamtion-key-1 {
+    position: relative;
+    animation-name: animation-1;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+  }
+
+  @keyframes fade-in-down {
+    0% {
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+  }
+
+  @keyframes preview {
+    0% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+  }
+
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
