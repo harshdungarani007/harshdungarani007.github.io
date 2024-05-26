@@ -8449,7 +8449,7 @@ Location:
 .cursor {
     width: 30px;
     height: 30px;
-    border: 1px solid var(--ztc-text-text-2);
+    border: 1px solid #fc814a;
     border-radius: 50%;
     position: absolute;
     z-index: 9999;
@@ -8464,13 +8464,13 @@ Location:
     width: 10px;
     height: 10px;
     position: absolute;
-    border: 2px solid var(--ztc-text-text-2);
+    border: 2px solid #fc814a;
     border-radius: 50%;
     opacity: 0.5;
     top: 9PX;
     left: 9PX;
     animation: cursorAnim2 0.5s alternate;
-    background: var(--ztc-text-text-2);
+    background: #fc814a;
 }
 
 @keyframes cursorAnim {
