@@ -321,7 +321,7 @@ Location:
     transition: all 0.4s;
     margin-top: 32px;
     text-transform: uppercase;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
 }
 
 .btn-area .download-btn img {
@@ -338,7 +338,7 @@ Location:
     z-index: -1;
     border-radius: 4px;
     transition: all 0.4s;
-    background: var(--Button-Gradient, linear-gradient(90deg, #D9D314 0%, #2CE97A 90%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #ff8d58 0%, #ffa074 90%));
 }
 
 .btn-area .download-btn:hover {
@@ -356,7 +356,7 @@ Location:
     font-size: var(--ztc-font-size-font-s16);
     font-weight: var(--ztc-weight-bold);
     line-height: var(--ztc-font-size-font-s16);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -376,7 +376,7 @@ Location:
     display: block;
     width: 40px;
     height: 40px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -408,7 +408,7 @@ Location:
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     display: inline-block;
     color: var(--ztc-text-text-3);
     position: absolute;
@@ -692,7 +692,7 @@ Location:
     width: 40px;
     text-align: center;
     border-radius: 50%;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     color: var(--ztc-text-text-3);
 }
 
@@ -820,7 +820,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -837,7 +837,7 @@ Location:
     font-size: var(--ztc-font-size-font-s48);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s48);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -863,7 +863,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
 }
 
 @media (max-width: 767px) {
@@ -882,7 +882,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-header-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -995,7 +995,7 @@ Location:
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .box1 .icons {
-    background: none !important;
+    background: #fc814a !important;
 }
 
 @media (max-width: 767px) {
@@ -1186,7 +1186,7 @@ Location:
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .service-author-box:hover .content .icons {
-    background: var(--ztc-bg-bg6);
+    background: #fc814a;
     transition: all 0.4s;
 }
 
@@ -1833,7 +1833,7 @@ Location:
     line-height: var(--ztc-font-size-font-s48);
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background-image: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     color: var(--ztc-text-text-3);
     -webkit-text-stroke-color: transparent;
     -webkit-text-stroke-width: 0.0625em;
@@ -1891,7 +1891,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1966,7 +1966,7 @@ Location:
 
 .homepage1-body .about-section-area .about-textarea .pbmit-heading-subheading span.marketer {
     margin-top: 24px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2061,7 +2061,7 @@ Location:
     font-size: var(--ztc-font-size-font-s16);
     font-weight: var(--ztc-weight-medium);
     line-height: var(-ztc-font-size-font-s16);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     opacity: 0.8;
     margin-top: 32px;
 }
@@ -2087,9 +2087,11 @@ Location:
     font-size: var(--ztc-font-size-font-s18);
     line-height: var(--ztc-font-size-font-s18);
     font-weight: var(--ztc-weight-medium);
-    color: var(--ztc-text-text-1);
-    text-transform: uppercase;
+    color: var(--ztc-text-text-10);
+    text-transform: capitalize;
     margin-top: 16px;
+    display: flex;
+    align-items: normal;
 }
 
 .homepage1-body .about-section-area .about-textarea .pera-content .list-area ul li img {
@@ -2492,7 +2494,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2509,7 +2511,7 @@ Location:
     font-size: var(--ztc-font-size-font-s48);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s48);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -2535,7 +2537,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
 }
 
 @media (max-width: 767px) {
@@ -2554,7 +2556,7 @@ Location:
 
 .homepage1-body .skills-section-area .skills-header-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2703,7 +2705,7 @@ Location:
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .box2 .content .icons {
-    background: var(--ztc-bg-bg6) !important;
+    background: #fc814a !important;
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .box2 .content .icons img {
@@ -2738,7 +2740,7 @@ Location:
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .skills-all-boxarea:hover .content .icons {
-    background: var(--ztc-bg-bg6);
+    background: #fc814a;
     transition: all 0.4s;
 }
 
@@ -2780,7 +2782,7 @@ Location:
     margin-top: -30px;
     z-index: 2;
     transition: all 0.4s;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .skills-all-boxarea .percent::after {
@@ -3255,7 +3257,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3272,7 +3274,7 @@ Location:
     font-size: var(--ztc-font-size-font-s48);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s48);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -3298,7 +3300,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
 }
 
 @media (max-width: 767px) {
@@ -3317,7 +3319,7 @@ Location:
 
 .homepage1-body .portfolio-section-area .portfolio-header-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3532,7 +3534,7 @@ Location:
     font-size: var(--ztc-font-size-font-s16);
     line-height: var(--ztc-font-size-font-s16);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3900,7 +3902,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3917,7 +3919,7 @@ Location:
     font-size: var(--ztc-font-size-font-s48);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s48);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -3943,7 +3945,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
 }
 
 @media (max-width: 767px) {
@@ -3962,7 +3964,7 @@ Location:
 
 .homepage1-body .testimonial-section-area .testimonial-header-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4146,7 +4148,7 @@ Location:
     line-height: var(--ztc-font-size-font-s16);
     font-weight: var(--ztc-weight-bold);
     text-transform: uppercase;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4160,7 +4162,7 @@ Location:
     content: "";
     height: 1px;
     width: 100%;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     left: 0;
     bottom: 0;
 }
@@ -4195,7 +4197,7 @@ Location:
 .homepage1-body .testimonial-section-area .testimonial-box-area .testimonial-content .owl-nav button::after {
     position: absolute;
     content: "";
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     color: var(--ztc-text-text-3);
     transition: all 0.4s;
     height: 100%;
@@ -4574,7 +4576,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4591,7 +4593,7 @@ Location:
     font-size: var(--ztc-font-size-font-s48);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s48);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -4617,7 +4619,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
     padding-left: 120px;
 }
 
@@ -4639,7 +4641,7 @@ Location:
 
 .blog-section-area .blog-header-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4899,7 +4901,7 @@ Location:
 }
 
 .blog-section-area .blog-box-area .content-area a.readmore {
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4915,7 +4917,7 @@ Location:
 
 .blog-section-area .blog-box-area .content-area a.readmore svg {
     margin-left: 4px;
-    color: #2CE97A;
+    color: #fc814a;
     transform: rotate(-45deg);
 }
 
@@ -5480,7 +5482,7 @@ Location:
     font-size: var(--ztc-font-size-font-s20);
     line-height: var(--ztc-font-size-font-s20);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -5542,7 +5544,7 @@ Location:
 
 .homepage1-body .contact-section-area .contact-header-area .contact-text-area .pbmit-heading-subheading span.marketer {
     margin-top: 16px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -6603,7 +6605,7 @@ Location:
     font-family: var(--ztc-family-font1);
     font-size: var(--ztc-font-size-font-s24);
     font-weight: var(--ztc-weight-medium);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     line-height: var(--ztc-font-size-font-s24);
     margin-bottom: 24px;
     display: flex;
@@ -6618,7 +6620,7 @@ Location:
     font-size: var(--ztc-font-size-font-s64);
     font-weight: var(--ztc-weight-semibold);
     line-height: var(--ztc-font-size-font-s64);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-transform: uppercase;
 }
 
@@ -6644,7 +6646,7 @@ Location:
     color: transparent;
     font-weight: var(--ztc-weight-semibold);
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--ztc-text-text-1);
+    -webkit-text-stroke: 1px var(--ztc-text-text-10);
 }
 
 @media (max-width: 767px) {
@@ -6663,7 +6665,7 @@ Location:
 
 .homepage1-body .header-section-area .header-textarea .pbmit-heading-subheading span.marketer {
     margin-top: 30px;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--ztc-text-text-10);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -6705,11 +6707,11 @@ Location:
     content: "";
     height: 100%;
     width: 100%;
-    background-color: var(--ztc-bg-bg-1);
+    background-color: #fc814a;
     z-index: -1;
     left: 0;
     top: 0;
-    border: 1px solid var(--ztc-border-border-1);
+    border: 1px solid #fc814a;
     border-radius: 4px;
 }
 
@@ -6746,7 +6748,7 @@ Location:
     font-size: var(--ztc-font-size-font-s16);
     line-height: var(--ztc-font-size-font-s22);
     font-weight: var(--ztc-weight-medium);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     opacity: 0.8;
 }
 
@@ -6775,7 +6777,7 @@ Location:
     font-size: var(--ztc-font-size-font-s24);
     line-height: var(--ztc-font-size-font-s24);
     font-weight: var(--ztc-weight-semibold);
-    color: var(--ztc-text-text-1);
+    color: var(--ztc-text-text-10);
     text-align: center;
 }
 
@@ -6815,7 +6817,7 @@ Location:
     top: 0;
     z-index: -1;
     transition: all 0.4s;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: #fc814a;
     border-radius: 4px;
 }
 
@@ -6937,7 +6939,7 @@ Location:
     content: "";
     height: 100%;
     width: 0;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: #fc814a;
     left: 0;
     top: 0;
     z-index: -1;
@@ -7439,7 +7441,7 @@ Location:
     line-height: var(--ztc-font-size-font-s90);
     font-size: var(--ztc-font-size-font-s70);
     text-transform: uppercase;
-    background-image: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background-image: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -7518,7 +7520,7 @@ Location:
     line-height: var(--ztc-font-size-font-s24);
     display: inline-block;
     text-transform: uppercase;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -7719,7 +7721,7 @@ Location:
     content: "";
     height: 100%;
     width: 100%;
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     left: 0;
     top: 0;
     opacity: 0.2;
@@ -7732,7 +7734,7 @@ Location:
     font-size: var(--ztc-font-size-font-s18);
     line-height: var(--ztc-font-size-font-s18);
     font-weight: var(--ztc-weight-medium);
-    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background: var(--Button-Gradient, linear-gradient(90deg, #fc814a 0%, #fc814a 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
