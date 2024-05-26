@@ -1191,7 +1191,7 @@ Location:
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .service-author-box:hover .content .icons img {
-    filter: brightness(0);
+    
     transition: all 0.4s;
 }
 
@@ -3469,11 +3469,7 @@ Location:
     transition: all 0.4s;
 }
 
-.homepage1-body .portfolio-section-area .portfolio-box-area .images {
-    overflow: hidden;
-    transition: all 0.4s;
-    border-radius: 4px;
-}
+.homepage1-body .portfolio-section-area .portfolio-box-area .images {overflow: hidden;transition: all 1s;border-radius: 4px;width: 100%;height: 400px;}
 
 .homepage1-body .portfolio-section-area .portfolio-box-area .images img {
     height: 340px;
@@ -3482,8 +3478,13 @@ Location:
     object-fit: cover;
     border-radius: 4px;
     transition: all 0.4s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 5s ease-in-out;
 }
-
+.homepage1-body .portfolio-section-area .portfolio-box-area .images:hover img{object-position: bottom center;}
 @media (max-width: 767px) {
     .homepage1-body .portfolio-section-area .portfolio-box-area .images img {
         height: 100%;
@@ -6742,8 +6743,8 @@ Location:
 
 .homepage1-body .header-section-area .header-textarea .header-pera-area p {
     font-family: var(--ztc-family-font1);
-    font-size: var(--ztc-font-size-font-s20);
-    line-height: var(--ztc-font-size-font-s30);
+    font-size: var(--ztc-font-size-font-s16);
+    line-height: var(--ztc-font-size-font-s22);
     font-weight: var(--ztc-weight-medium);
     color: var(--ztc-text-text-1);
     opacity: 0.8;
@@ -6889,7 +6890,7 @@ Location:
 .homepage1-body .header-section-area .sidebar-main .sidebar-area {
     background: var(--ztc-bg-bg-1);
     border-radius: 4px;
-    padding: 140px 32px 32px 32px;
+    padding: 32px 32px 32px 32px;
     position: fixed;
     left: 100px;
     width: 250px;
@@ -8529,7 +8530,7 @@ Location:
     width: 80px;
     margin: 0px auto;
     text-align: center;
-    background: transparent url(../img/logo/logo1.png) no-repeat center center;
+    background: transparent url(../img/logo/Group-logo.png) no-repeat center center;
     background-size: contain;
     text-indent: -99999px;
     padding: 5px;
