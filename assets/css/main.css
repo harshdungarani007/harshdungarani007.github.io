@@ -3484,9 +3484,9 @@ Location:
     height: 100%;
     object-fit: cover;
     object-position: top center;
-    transition: all 5s ease-in-out;
+    transition: all 8s ease-in-out;
 }
-.homepage1-body .portfolio-section-area .portfolio-box-area .images:hover img{object-position: bottom center;}
+.homepage1-body .portfolio-section-area .portfolio-box-area .images:hover img{object-position: bottom center;transition: all 8s ease-in-out;}
 @media (max-width: 767px) {
     .homepage1-body .portfolio-section-area .portfolio-box-area .images img {
         height: 100%;
