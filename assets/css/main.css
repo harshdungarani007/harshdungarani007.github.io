@@ -94,12 +94,12 @@ ul {
 
 :root {
     --ztc-text-text-1: #fff;
-    --ztc-text-text-2: #AEE929;
+    --ztc-text-text-2: #FD6E1E;
     --ztc-text-text-3: #04060C;
     --ztc-text-text-4: #282C34;
     --ztc-text-text-5: #181A1F;
     --ztc-text-text-6: #1c1d20;
-    --ztc-text-text-7: #b3ff00;
+    --ztc-text-text-7: #FD6E1E;
     --ztc-text-text-8: #5D626F;
     --ztc-text-text-9: #FD6004;
     --ztc-text-text-10: #252D34;
@@ -110,12 +110,12 @@ ul {
     --ztc-bg-bg-4: #111218;
     --ztc-bg-hedaer-bg: #161616;
     --ztc-bg-bg-5: #2D2E34;
-    --ztc-bg-bg6: #69CA48;
+    --ztc-bg-bg6: #FD6E1E;
     --ztc-bg-bg7: #DAE0DE;
     --ztc-bg-bg8: #13151B;
     --ztc-bg-bg9: #1C1E24;
     --ztc-bg-bg10: #25272D;
-    --ztc-bg-bg11: #56CD55;
+    --ztc-bg-bg11: #FD6E1E;
     --ztc-bg-bg12: #F0F0F0;
     --ztc-bg-bg13: #F4F4F6;
     --ztc-bg-main-bg: var(--Gradient-Color, linear-gradient(90deg, #FF4308 0%, #FB8500 100%));
@@ -125,7 +125,7 @@ ul {
     --ztc-bg-bg16: #FFECE6;
     --ztc-bg-bg17: #FE8037;
     --ztc-bg-bg18: #31512A;
-    --ztc-bg-bg19: #77E04E;
+    --ztc-bg-bg19: #FD6E1E;
     --ztc-bg-bg20: #FED2B3;
     --ztc-bg-bg21: #FD721D;
     --ztc-bg-bg22: #FB8C1A;
@@ -135,8 +135,8 @@ ul {
     --ztc-border-border-1: #262D35;
     --ztc-border-border-2: #292A2F;
     --ztc-border-border-3: #664626;
-    --ztc-border-border-4: #62CB4D;
-    --ztc-border-border-5: #4FB84C;
+    --ztc-border-border-4: #FE5C05;
+    --ztc-border-border-5: #FD6E1E;
     --ztc-border-border-6: #FE5C05;
     --ztc-border-border-7: #FD6E1E;
     --ztc-font-size-font-s10: 10px;
@@ -2709,7 +2709,7 @@ Location:
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .box2 .content .icons img {
-    filter: brightness(0);
+    /* filter: brightness(0); */
 }
 
 .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .box2 .content p {
@@ -5751,7 +5751,7 @@ Location:
     font-family: var(--ztc-family-font1);
     font-size: var(--ztc-font-size-font-s32);
     font-weight: var(--ztc-weight-semibold);
-    color: var(--ztc-text-text-3);
+    color: var(--ztc-text-text-1);
     line-height: var(--ztc-font-size-font-s32);
     margin-bottom: 32px;
     text-transform: uppercase;
@@ -5870,7 +5870,7 @@ Location:
     font-family: var(--ztc-family-font1);
     font-size: var(--ztc-font-size-font-s14);
     font-weight: var(--ztc-weight-medium);
-    color: var(--ztc-text-text-3);
+    color: var(--ztc-text-text-1);
     text-transform: uppercase;
     line-height: var(--ztc-font-size-font-s14);
     display: inline-block;
@@ -5885,24 +5885,17 @@ Location:
 .homepage1-body .contact-section-area .footer-section-area .social-links-area ul li a:hover {
     background: var(--ztc-text-text-1);
     transition: all 0.4s;
+    color: var(--ztc-text-text-10);
 }
 
-.homepage1-body .contact-section-area .footer-section-area .social-links-area ul li a::after {
-    position: absolute;
-    content: "";
-    height: 32px;
-    border-radius: 4px;
-    width: 1px;
-    background: var(--ztc-border-border-5);
-    left: 60px;
-    top: 10px;
-}
+
 
 .homepage1-body .contact-section-area .footer-section-area .social-links-area ul li a img {
     margin: 0 12px 0 0;
     position: relative;
-    filter: brightness(0);
+    /* filter: brightness(0); */
 }
+.homepage1-body .contact-section-area .footer-section-area .social-links-area ul li a:hover img{filter: brightness(0);}
 
 .homepage1-body .contact-section-area .footer-section-area .social-links-area ul li .twitter::after {
     left: 53px;
@@ -5912,7 +5905,7 @@ Location:
     font-family: var(--ztc-family-font1);
     font-size: var(--ztc-font-size-font-s16);
     font-weight: var(--ztc-weight-medium);
-    color: var(--ztc-text-text-3);
+    color: var(--ztc-text-text-1);
     opacity: 0.6;
     line-height: var(--ztc-font-size-font-s16);
     text-align: center;
@@ -6528,17 +6521,7 @@ Location:
     transition: all 0.4s;
 }
 
-.contact-section-area .footer-section-area .social-links-area ul li a::after {
-    position: absolute;
-    content: "";
-    height: 32px;
-    border-radius: 4px;
-    width: 1px;
-    left: 60px;
-    top: 10px;
-    background: var(--ztc-bg-bg22);
-    transition: all 0.4s;
-}
+
 
 .contact-section-area .footer-section-area .social-links-area ul li a img {
     margin: 0 12px 0 0;
