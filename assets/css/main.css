@@ -624,7 +624,10 @@ Location:
 .homepage1-body .mobile-header.mobile-haeder1 {
     background: var(--ztc-text-text-1);
     position: fixed;
+    box-shadow: 1px 0px 20px rgb(0 0 0 / 14%);
+    transition: 0.5s all;
 }
+#main-header.scrolled{top: -100%;transition: 0.5s all;}
 
 .homepage1-body .mobile-header.mobile-haeder1 .mobile-header-elements .mobile-logo {
     height: 50px;
@@ -782,7 +785,151 @@ Location:
     background: var(--ztc-bg-main-bg);
     color: var(--ztc-text-text-1);
 }
+.menu_nav ul .header_menu a{    
+    padding: 5px 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s all;
+}
+.menu_nav ul .header_menu a:hover{
+    color: #fc814a;
+    transition: 0.5s all;
+}
+.func_port{background-color: #fff;}
+.func_port .profile {
+    height: 50vh;
+    background-size: contain !important;
+}
+.w-100{width: 100%;}
+.func_port .profile {
+    margin: 0 auto;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: -110vh;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: no-repeat !important;
+}
+.func_port hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+.func_port hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #cccccc;
+}
+.func_port article {
+    color: #59aaff;
+}
 
+.func_port article {
+    margin-left: 0;
+    position: relative;
+    max-width: 100%;
+    margin-top: 100vh;
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+.func_port header {
+    text-align: center;
+    padding: 0 2em;
+}
+  
+.func_port h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.func_port h1 .headline-1,
+.func_port h1 .headline-2 {
+    line-height: 1;
+}
+.func_port h1 .headline-1 {
+    font-size: 6vw;
+    word-wrap: break-word;
+}
+.func_port h1 .headline-2 {
+    font-size: 5vw;
+}
+  
+.func_port .subheading {
+    color: #363636;
+    font-size: 1.5625em;
+    max-width: 25em;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+  
+.func_port section {padding: 0 3em;}
+.func_port ul{padding-left: 2rem;}
+.func_port ul li{list-style: disc;margin-left: 100px;color: #3c3c3c;}
+.func_port ul li p{color: #3c3c3c;}
+.func_port h4{margin-top: 30px;}
+.func_port h4{color: #000;font-weight: bold;}
+.func_port p{color: #3a3a3a;}
+.func_port p b{margin-left: 84px;}
+.func_port .func_portsection p:first-of-type:first-letter {
+    float: left;
+    font-size: 7em;
+    line-height: 1;
+    margin-top: -0.2em;
+    margin-bottom: -0.2em;
+    margin-right: 0.1em;
+}
+  
+.func_port img {
+    max-width: 100%;
+    margin-bottom: 1.33em;
+    vertical-align: middle;
+  }
+  
+.func_port blockquote {
+    border-left: 0.5em solid #ccc;
+    font-size: 2em;
+    padding: 0.5em;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    right: 100%;
+    top: 70vh;
+    width: 9em;
+    background: #191919;
+  }
+  .func_port blockquote::before, blockquote::after {
+    color: #ccc;
+    font-size: 1.25em;
+    line-height: 0;
+  }
+  .func_port blockquote::before {
+    content: open-quote;
+  }
+  .func_port blockquote::after {
+    content: close-quote;
+  }
+  #functionality h4{
+    color: #f57d48;
+    font-weight: bold;}
+@media (max-width: 991px) {
+    .func_port .profile{top: -12vh;}
+    .func_port article{margin-top: 75vh;}
+}
 @media (max-width: 767px) {
     .homepage2-body .cursor {
         display: none;
@@ -1041,7 +1188,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-boxs-area .box2 .content p {
     position: relative;
-    left: -75px !important;
+    left: 0px !important;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .box3 {
@@ -1070,7 +1217,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-boxs-area .box3 p {
     position: relative;
-    left: -60px !important;
+    left: 0px !important;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .box4 {
@@ -1099,7 +1246,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-boxs-area .box4 p {
     position: relative;
-    left: -55px !important;
+    left: 0px !important;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .box5 {
@@ -1128,7 +1275,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-boxs-area .box5 p {
     position: relative;
-    left: -75px !important;
+    left: 0px !important;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .box6 {
@@ -1158,7 +1305,7 @@ Location:
 
 .homepage1-body .service1-section-area .service-boxs-area .box6 p {
     position: relative;
-    left: -60px !important;
+    left: 0px !important;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .service-author-box {
@@ -1212,9 +1359,10 @@ Location:
 .homepage1-body .service1-section-area .service-boxs-area .service-author-box .content {
     position: relative;
     z-index: 3;
-    top: 30%;
-    left: 37%;
-    right: 39%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .homepage1-body .service1-section-area .service-boxs-area .service-author-box .content .icons {
@@ -1241,7 +1389,7 @@ Location:
     margin-top: 32px;
     text-transform: uppercase;
     position: relative;
-    left: -45px;
+    left: 0px;
     transition: all 0.4s;
 }
 
@@ -6563,7 +6711,7 @@ Location:
 }
 
 .homepage1-body .header-section-area {
-    padding: 60px 0 0 0;
+    padding: 100px 0 0 0;
     position: relative;
 }
 
@@ -8172,6 +8320,7 @@ Location:
     .homepage2-body .custom-model-main .contact-from-area {
         margin-bottom: 30px;
     }
+    .menu_nav{display: none;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -8333,7 +8482,16 @@ Location:
         margin-top: 45px;
     }
 }
-
+@media (max-width: 600px) {
+    .homepage1-body .header-section-area{padding: 80px 0 60px !important;}
+    .func_port .profile{top: 0;height: 50vh;}
+    .func_port article {margin-top: 40vh;}
+    .func_port .subheading{font-size: 1em;}
+    .func_port p b {margin-left: 20px;}
+    .func_port ul li{margin-left: 30px;}
+    .func_port section{padding: 0 1.5em;}
+    body{font-size: 14px;}
+}
 /* ============= POPUP SIDEBAR AREA ENDS =============== */
 
 /* ============= OTHERS AREA STARTS =============== */

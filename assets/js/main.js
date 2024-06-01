@@ -181,3 +181,19 @@
 
 
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.getElementById('main-header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > lastScrollY) {
+            // Scrolling down
+            header.classList.add('scrolled');
+        } else {
+            // Scrolling up
+            header.classList.remove('scrolled');
+        }
+        lastScrollY = window.scrollY;
+    });
+});

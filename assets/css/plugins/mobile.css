@@ -33,7 +33,7 @@ li {
 }
 
 /*Menu Css*/
-
+.mobile-logo img{width: 100%;}
 .mobile-logo a {
     font-size: 20px;
     font-weight: 500;
@@ -46,7 +46,7 @@ li {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 17px 0;
+    padding: 15px 0;
     z-index: 9;
 }
 
@@ -205,5 +205,5 @@ span.multi-drop-icon {
 
 ul.mobile-nav-list {
     max-height: 500px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
